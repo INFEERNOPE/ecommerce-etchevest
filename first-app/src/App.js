@@ -9,7 +9,7 @@ function App() {
       <Navbar/>
       <NavbarBoost/>
     </div>
+    
   );
 }
-
 export default App;
