@@ -35,6 +35,7 @@ const NavbarBoost = () => {
         <input classname="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button classname="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <cartwidget/>
     </div>
   </div>
 </nav>
