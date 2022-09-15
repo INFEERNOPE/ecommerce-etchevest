@@ -1,10 +1,10 @@
 import React from 'react'
 import { FaOpencart } from "react-icons/fa"
 
-const cartwidget = () => {
+const CartWidget = () => {
   return (
     <FaOpencart/>
   )
 }
 
-export default cartwidget
+export default CartWidget

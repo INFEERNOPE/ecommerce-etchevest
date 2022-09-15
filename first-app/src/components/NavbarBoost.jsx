@@ -1,45 +1,39 @@
+
 const NavbarBoost = () => {
-    return (
-        <nav classname="navbar navbar-expand-lg bg-light">
-          <link rel="stylesheet" href="../App.css" />
-  <img alt="logo" src="/Manga-reader.png" classname ="logos"/>
-  <div classname="navbarboost">
-    <a classname="navbar-brand" href="#">Navbar</a>
-    <button classname="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span classname="navbar-toggler-icon"></span>
-    </button>
-    <div classname="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul classname="navbar-nav me-auto mb-2 mb-lg-0">
-        <li classname="nav-item">
-          <a classname="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li classname="nav-item">
-          <a classname="nav-link" href="#">Link</a>
-        </li>
-        <li classname="nav-item dropdown">
-          <a classname="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul classname="dropdown-menu">
-            <li><a classname="dropdown-item" href="#">Action</a></li>
-            <li><a classname="dropdown-item" href="#">Another action</a></li>
-            <li><hr classname="dropdown-divider"/></li>
-            <li><a classname="dropdown-item" href="#">Something else here</a></li>
+  return (
+      <nav className="navbar navbar-expand-lg bg-light">
+      <div className="container-fluid">
+      <img alt="logo" src="/Manga-reader.png" className="logos"/>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Link</a>
+            </li>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">Action</a></li>
+                <li><a className="dropdown-item" href="#">Another action</a></li>
+                <li><hr className="dropdown-divider"/></li>
+                <li><a className="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link disabled">Disabled</a>
+            </li>
           </ul>
-        </li>
-        <li classname="nav-item">
-          <a classname="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form classname="d-flex" role="search">
-        <input classname="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button classname="btn btn-outline-success" type="submit">Search</button>
-      </form>
-      <cartwidget/>
-    </div>
-  </div>
-</nav>
-    )
+        </div>
+      </div>
+      </nav>
+  )
 }
 
 export default NavbarBoost
