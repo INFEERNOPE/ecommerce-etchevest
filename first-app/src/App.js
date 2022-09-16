@@ -6,7 +6,7 @@ import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   const titulo="Lista de productos"
-  const counter="Soy un Contador"
+  const counter=""
   return (
     <div className="App">
       <NavbarBoost/>
