@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import ItemCounter from './ItemCounter'
-
 const ItemListContainer = (props) => {
     const {greeting, titulo, counter} = props
     const [mostrar, setMostrar] = useState (false)
